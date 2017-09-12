@@ -25,4 +25,12 @@ if x in nums:
     print('Found!')
 else:
     print('Not Fonud!')
-    
+
+# The 'is' operator
+# Used to match the instances of a variable
+blob = 'Hello World'
+blob2 = blob
+
+print(blob2 is blob)
+# This will print true
+
