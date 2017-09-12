@@ -17,3 +17,12 @@ if str=='Hello World!' and num==25:
     print('Success!')
 elif str == 'Hello World!' and num > 2:
     print('Success!')
+
+# Membership operator 'in'
+x = 5
+nums = [1, 2, 3, 4, 5]
+if x in nums:
+    print('Found!')
+else:
+    print('Not Fonud!')
+    
