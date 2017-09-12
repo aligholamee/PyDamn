@@ -33,4 +33,5 @@ blob2 = blob
 
 print(blob2 is blob)
 # This will print true
+# This method won't work for the arrays
 
