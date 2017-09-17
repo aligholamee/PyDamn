@@ -19,6 +19,7 @@ elif str == 'Hello World!' and num > 2:
     print('Success!')
 
 # Membership operator 'in'
+# The in operator evaluate to true if it finds the specified variable in the sequence
 x = 5
 nums = [1, 2, 3, 4, 5]
 if x in nums:
