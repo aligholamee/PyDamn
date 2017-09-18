@@ -20,3 +20,15 @@ print(d1['first'])
 print(d2)
 
 
+# We can use update t0o concatenate two dictionaries
+x1 = {
+    'fruit1': 'orange',
+    'fruit2': 'apple'
+}
+
+x2 = {
+    'fruit3': 'bannana',
+    'fruit4': 'mavricks'
+}
+
+x1.update(x2)
