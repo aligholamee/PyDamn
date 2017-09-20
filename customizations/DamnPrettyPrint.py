@@ -11,3 +11,6 @@ data = [(x, {y: y*y for y in range(2)}) for x in range(4)]
 # z is not nested thus is repeated for the whole process again
 customizedData = [(x, {y: sqrt(y) for y in range(10)}) for x in range(2),{z: z for z in range(5)}]
 print(pprint.pformat(customizedData, width=50))
+
+# check if the object is readable
+print(pprint.isreadable(customizedData))
